@@ -2,15 +2,15 @@ digraph G {
 	splines = true;
 	nodesep = 1.0;
 	bgcolor = "none"
-	"8d9b785b-dc3a-4ae8-a9ad-9ac52f3e6628" -> "00f759ff-dc9d-4d34-b42e-9612532f1496" ;
-	"6e7a7e7f-7f90-4290-9991-b7947950c8fc" -> "560e9cca-4e57-4fc6-8f8e-f817a326a435" ;
-	"560e9cca-4e57-4fc6-8f8e-f817a326a435" -> "ab1fe105-1e47-45af-862d-e40ade87b43f" ;
-	"00f759ff-dc9d-4d34-b42e-9612532f1496" -> "6e7a7e7f-7f90-4290-9991-b7947950c8fc" ;
-	"56a8c83f-3875-4ed7-8872-c198672d9bc5" -> "8d9b785b-dc3a-4ae8-a9ad-9ac52f3e6628" ;
-	"56a8c83f-3875-4ed7-8872-c198672d9bc5" [label = "WaitArm", margin = 0];
-	"8d9b785b-dc3a-4ae8-a9ad-9ac52f3e6628" [label = "Descend", margin = 0];
-	"00f759ff-dc9d-4d34-b42e-9612532f1496" [label = "DelayAction", margin = 0];
-	"6e7a7e7f-7f90-4290-9991-b7947950c8fc" [label = "StraightMovement", margin = 0];
-	"560e9cca-4e57-4fc6-8f8e-f817a326a435" [label = "DelayAction", margin = 0];
-	"ab1fe105-1e47-45af-862d-e40ade87b43f" [label = "ZeroMovement", margin = 0];
+	"588f4c20-143e-47f9-8310-6e7afccf0dfb" -> "cfffd725-1937-4c7f-99bb-6c9bb405322a" ;
+	"62b72f74-3e1b-44e4-9f4a-2bde70130ef6" -> "1ae43c8e-2ab5-4a03-bfcf-43224e6f40b5" ;
+	"1ae43c8e-2ab5-4a03-bfcf-43224e6f40b5" -> "190a417d-21ef-4f99-b977-9419969ea22f" ;
+	"cfffd725-1937-4c7f-99bb-6c9bb405322a" -> "62b72f74-3e1b-44e4-9f4a-2bde70130ef6" ;
+	"40383c26-d968-40ce-b77d-5bec2beb4df7" -> "588f4c20-143e-47f9-8310-6e7afccf0dfb" ;
+	"40383c26-d968-40ce-b77d-5bec2beb4df7" [label = "WaitArm", margin = 0];
+	"588f4c20-143e-47f9-8310-6e7afccf0dfb" [label = "Descend", margin = 0];
+	"cfffd725-1937-4c7f-99bb-6c9bb405322a" [label = "DelayAction", margin = 0];
+	"62b72f74-3e1b-44e4-9f4a-2bde70130ef6" [label = "StraightMovement", margin = 0];
+	"1ae43c8e-2ab5-4a03-bfcf-43224e6f40b5" [label = "DelayAction", margin = 0];
+	"190a417d-21ef-4f99-b977-9419969ea22f" [label = "ZeroMovement", margin = 0];
 }

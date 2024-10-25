@@ -2,13 +2,13 @@ digraph G {
 	splines = true;
 	nodesep = 1.0;
 	bgcolor = "none"
-	"01bb5d19-d842-453f-879d-61c44833c04b" [shape = diamond];
-	"01bb5d19-d842-453f-879d-61c44833c04b" -> "01bb5d19-d842-453f-879d-61c44833c04b" [label = "True"];
-	"fd7820c4-454c-46ba-b8c2-57850ee6b4e9" -> "15ed9c54-0169-42fb-be1b-f1266bfe2b49" ;
-	"67f76f68-8bae-491d-b2f4-786ef6aa9d02" -> "fd7820c4-454c-46ba-b8c2-57850ee6b4e9" ;
-	"01bb5d19-d842-453f-879d-61c44833c04b" -> "67f76f68-8bae-491d-b2f4-786ef6aa9d02" [label = "False"];
-	"01bb5d19-d842-453f-879d-61c44833c04b" [label = "DriveToBuoyVision", margin = 0];
-	"67f76f68-8bae-491d-b2f4-786ef6aa9d02" [label = "StraightMovement", margin = 0];
-	"fd7820c4-454c-46ba-b8c2-57850ee6b4e9" [label = "DelayAction", margin = 0];
-	"15ed9c54-0169-42fb-be1b-f1266bfe2b49" [label = "ZeroMovement", margin = 0];
+	"aca1d180-122f-4050-a35e-da6fc92d1cba" [shape = diamond];
+	"aca1d180-122f-4050-a35e-da6fc92d1cba" -> "aca1d180-122f-4050-a35e-da6fc92d1cba" [label = "True"];
+	"72403304-f6d5-40aa-b7ba-b1a53fce72e5" -> "af2ae9d7-f3ba-45eb-beec-17daaca4076f" ;
+	"813eaf5e-46a8-495f-a103-011a2faf3d63" -> "72403304-f6d5-40aa-b7ba-b1a53fce72e5" ;
+	"aca1d180-122f-4050-a35e-da6fc92d1cba" -> "813eaf5e-46a8-495f-a103-011a2faf3d63" [label = "False"];
+	"aca1d180-122f-4050-a35e-da6fc92d1cba" [label = "DriveToBuoyVision", margin = 0];
+	"813eaf5e-46a8-495f-a103-011a2faf3d63" [label = "StraightMovement", margin = 0];
+	"72403304-f6d5-40aa-b7ba-b1a53fce72e5" [label = "DelayAction", margin = 0];
+	"af2ae9d7-f3ba-45eb-beec-17daaca4076f" [label = "ZeroMovement", margin = 0];
 }

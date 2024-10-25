@@ -2,13 +2,13 @@ digraph G {
 	splines = true;
 	nodesep = 1.0;
 	bgcolor = "none"
-	"aca1d180-122f-4050-a35e-da6fc92d1cba" [shape = diamond];
-	"aca1d180-122f-4050-a35e-da6fc92d1cba" -> "aca1d180-122f-4050-a35e-da6fc92d1cba" [label = "True"];
-	"72403304-f6d5-40aa-b7ba-b1a53fce72e5" -> "af2ae9d7-f3ba-45eb-beec-17daaca4076f" ;
-	"813eaf5e-46a8-495f-a103-011a2faf3d63" -> "72403304-f6d5-40aa-b7ba-b1a53fce72e5" ;
-	"aca1d180-122f-4050-a35e-da6fc92d1cba" -> "813eaf5e-46a8-495f-a103-011a2faf3d63" [label = "False"];
-	"aca1d180-122f-4050-a35e-da6fc92d1cba" [label = "DriveToBuoyVision", margin = 0];
-	"813eaf5e-46a8-495f-a103-011a2faf3d63" [label = "StraightMovement", margin = 0];
-	"72403304-f6d5-40aa-b7ba-b1a53fce72e5" [label = "DelayAction", margin = 0];
-	"af2ae9d7-f3ba-45eb-beec-17daaca4076f" [label = "ZeroMovement", margin = 0];
+	"265e98e4-d302-4336-9fe2-a725edad1163" [shape = diamond];
+	"265e98e4-d302-4336-9fe2-a725edad1163" -> "265e98e4-d302-4336-9fe2-a725edad1163" [label = "True"];
+	"4e4fe7c1-7234-4dfb-a0c5-91e6aa05b0d7" -> "59ff8f9e-0f84-4872-afd7-35e1d1ed7937" ;
+	"cca2bfcc-5837-47fe-94bc-c9588edcd5c7" -> "4e4fe7c1-7234-4dfb-a0c5-91e6aa05b0d7" ;
+	"265e98e4-d302-4336-9fe2-a725edad1163" -> "cca2bfcc-5837-47fe-94bc-c9588edcd5c7" [label = "False"];
+	"265e98e4-d302-4336-9fe2-a725edad1163" [label = "DriveToBuoyVision", margin = 0];
+	"cca2bfcc-5837-47fe-94bc-c9588edcd5c7" [label = "StraightMovement", margin = 0];
+	"4e4fe7c1-7234-4dfb-a0c5-91e6aa05b0d7" [label = "DelayAction", margin = 0];
+	"59ff8f9e-0f84-4872-afd7-35e1d1ed7937" [label = "ZeroMovement", margin = 0];
 }

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["SensorStatuses"],"fn":["stab_2_drift"],"mod":["response","util"],"static":["LAST_YAW","STAB_2_DRIFT"],"struct":["ControlBoard"]};
